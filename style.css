@@ -7,6 +7,13 @@
 html {
   /* colours */
   --colorWhite: #ffffff;
+
+  /* Color Theme Swatches in Hex */
+  --color1: #201226;
+  --color2: #7E3DD9;
+  --color3: #51278C;
+  --color4: #5129A6;
+  --color5: #F2F2F2;
 }
 
 body {
@@ -74,6 +81,10 @@ svg {
   fill: darkcyan;
 }
 
+.btn {
+  position: relative;
+}
+
 span {
   width: 100px;
   position: absolute;
@@ -83,7 +94,8 @@ span {
   border-radius: 0 15px 15px 0;
   background-color: inherit;
   z-index: 10;
-  animation: increaseSpan 1s ease-in;
+  /* animation: increaseSpan 1s ease-in; */
+  transform: translateX(75px);
 }
 
 @keyframes increaseSpan {
