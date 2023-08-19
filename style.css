@@ -67,7 +67,6 @@ li {
 
 li:hover {
   background-color: lightpink;
-  /* transform: scale(1.2); */
 }
 
 svg {
@@ -76,11 +75,25 @@ svg {
 }
 
 span {
+  width: 100px;
   position: absolute;
-  transform: translateX(70px);
   padding: 10px;
   background-color: #ffffff;
   font-size: 20px;
-  border-radius: 15px;
+  border-radius: 0 15px 15px 0;
   background-color: inherit;
+  z-index: 10;
+  animation: increaseSpan 1s ease-in;
+}
+
+@keyframes increaseSpan {
+  0% {
+    z-index: -5;
+    transform: translateX(0);
+  }
+
+  100% {
+    z-index: 5;
+    transform: translateX(75px);
+  }
 }
