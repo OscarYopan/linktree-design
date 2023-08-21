@@ -59,6 +59,7 @@ body {
   height: 250px;
   width: 250px;
   border-radius: 67% 33% 25% 75% / 57% 73% 27% 43%;
+  animation: rotateImageBack 3s infinite inline;
 }
 
 h1 {
@@ -111,7 +112,17 @@ span {
   transform: translateX(75px);
 }
 
-@keyframes increaseSpan {
+@keyframes rotateImageBack {
+  0% {
+    transform: rotateX('0deg');
+  }
+
+  100% {
+    transform: rotate('360deg');
+  }
+}
+
+/* @keyframes increaseSpan {
   0% {
     z-index: -5;
     transform: translateX(0);
@@ -121,4 +132,4 @@ span {
     z-index: 5;
     transform: translateX(75px);
   }
-}
+} */
