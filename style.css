@@ -25,17 +25,17 @@ body {
   text-align: center;
 }
 
-.linktree-body {
-  background-color: transparent;
+.linktree-container {
+  background-color: var(--color1);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 500px;
-  /* border: 2px solid var(--color4); */
+  max-width: 600px;
   border-radius: 10px;
   padding: 20px;
   margin: 20px 0;
+  border-radius: 67% 33% 25% 75% / 57% 73% 27% 43%;
 }
 
 .perfil-image {
@@ -50,7 +50,7 @@ body {
   position: relative;
 }
 
-.back-animation {
+/* .back-animation {
   position: absolute;
   left: -40%;
   top: -40%;
@@ -58,9 +58,8 @@ body {
   background-color: #0439d979;
   height: 250px;
   width: 250px;
-  border-radius: 67% 33% 25% 75% / 57% 73% 27% 43%;
-  animation: rotateImageBack 3s infinite inline;
-}
+  animation: all 3s infinite inline;
+} */
 
 h1 {
   font-size: 30px;
@@ -69,6 +68,13 @@ h1 {
 
 p {
   font-size: 18px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 li {
