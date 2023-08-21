@@ -73,21 +73,21 @@ p {
 
 li {
   background-color: var(--colorWhite);
-  width: 180px;
-  height: 80px;
+  width: 200px;
   list-style-type: none;
-  border-radius: 100%;
+  border-radius: 5px;
   margin: 10px 0;
   padding: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 li:hover {
   background-color: var(--color4);
+  transform: scale(1.2);
 }
 
 svg {
@@ -99,19 +99,6 @@ svg {
   position: relative;
 }
 
-span {
-  width: 100px;
-  position: absolute;
-  padding: 10px;
-  background-color: var(--color5);
-  font-size: 20px;
-  border-radius: 0 15px 15px 0;
-  background-color: inherit;
-  z-index: 10;
-  /* animation: increaseSpan 1s ease-in; */
-  transform: translateX(75px);
-}
-
 @keyframes rotateImageBack {
   0% {
     transform: rotateX('0deg');
@@ -121,15 +108,3 @@ span {
     transform: rotate('360deg');
   }
 }
-
-/* @keyframes increaseSpan {
-  0% {
-    z-index: -5;
-    transform: translateX(0);
-  }
-
-  100% {
-    z-index: 5;
-    transform: translateX(75px);
-  }
-} */
