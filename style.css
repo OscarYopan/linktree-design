@@ -18,7 +18,7 @@ html {
 
 body {
   background-color: var(--color3);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -68,19 +68,21 @@ p {
 }
 
 .social-container {
+  background-color: var(--color2);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 20px;
+  width: 300px;
 }
 
 button {
-  background-color: var(--color4);
+  /* background-color: var(--color4); */
   cursor: pointer;
   margin: 0 5px;
   padding: 5px;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border: none;
   border-radius: 50%;
 }
