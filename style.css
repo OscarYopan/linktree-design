@@ -9,11 +9,11 @@ html {
   --colorWhite: #ffffff;
 
 /* Color Theme Swatches in Hex */
-  --color1: #0F228C;
-  --color2: #0439D9;
-  --color3: #2D6DA6;
-  --color4: #F2A29B;
-  --color5: #0D0D0D;
+  --color1: #011640;
+  --color2: #010D26;
+  --color3: #242526;
+  --color4: #F26938;
+  --color5: #F2522E;
 }
 
 body {
@@ -59,6 +59,7 @@ h1 {
 p {
   font-size: 18px;
   text-align: justify;
+  color: var(--colorWhite);
 }
 
 .social-container {
@@ -118,13 +119,14 @@ li {
   justify-content: space-around;
   margin: 10px 0;
   font-size: 20px;
+  color: var(--color1);
 }
 
 li:hover {
-  background-color: var(--color4);
+  background-color: var(--color5);
 }
 
 svg {
   font-size: 40px;
-  fill: var(--color3);
+  fill: var(--color1);
 }
