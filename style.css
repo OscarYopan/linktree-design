@@ -66,6 +66,10 @@ p {
   font-size: 18px;
 }
 
+.link-container {
+  padding: 0 20px;
+}
+
 ul {
   display: flex;
   align-items: center;
@@ -89,7 +93,6 @@ li {
 
 li:hover {
   background-color: var(--color4);
-  transform: scale(1.1);
 }
 
 svg {
