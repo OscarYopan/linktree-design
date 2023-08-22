@@ -57,17 +57,6 @@ img:hover {
   transform: scale(1.5);
 }
 
-/* .back-animation {
-  position: absolute;
-  left: -40%;
-  top: -40%;
-  z-index: -5;
-  background-color: #0439d979;
-  height: 250px;
-  width: 250px;
-  animation: all 3s infinite inline;
-} */
-
 h1 {
   font-size: 30px;
   color: var(--color5);
@@ -94,7 +83,7 @@ li {
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 10px 0;
 }
 
@@ -111,14 +100,4 @@ svg {
 
 .btn {
   position: relative;
-}
-
-@keyframes rotateImageBack {
-  0% {
-    transform: rotateX('0deg');
-  }
-
-  100% {
-    transform: rotate('360deg');
-  }
 }
