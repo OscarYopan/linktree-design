@@ -66,6 +66,28 @@ p {
   font-size: 18px;
 }
 
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button {
+  background-color: var(--color4);
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: var(--colorWhite);
+}
+
 .link-container {
   padding: 0 20px;
 }
@@ -98,9 +120,4 @@ li:hover {
 svg {
   font-size: 40px;
   fill: var(--color3);
-  margin-right: 20px;
-}
-
-.btn {
-  position: relative;
 }
