@@ -119,3 +119,14 @@ svg {
   font-size: 30px;
   fill: var(--color1);
 }
+
+a {
+  margin-top: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--colorWhite);
+}
+
+a:hover {
+  color: var(--color4);
+}
