@@ -123,6 +123,7 @@ svg {
 a {
   margin-top: 20px;
   font-size: 12px;
+  font-weight: bold;
   text-decoration: none;
   color: var(--colorWhite);
 }
