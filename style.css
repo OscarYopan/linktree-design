@@ -18,7 +18,7 @@ html {
 
 body {
   background: url('https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
-  background-color: var(--color3);
+  background-color: var(--color2);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 450px;
+  max-width: 400px;
   border-radius: 10px;
   padding: 20px 0;
 }
