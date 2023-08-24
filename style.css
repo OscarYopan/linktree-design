@@ -41,7 +41,7 @@ body {
 }
 
 .perfil-image {
-  background: url('assets/profile.png');
+  background: url('assets/homem.png');
   background-color: var(--color1);
   background-repeat: no-repeat;
   background-position: center;
