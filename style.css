@@ -125,11 +125,11 @@ a {
   font-size: 12px;
   font-weight: bold;
   text-decoration: none;
-  color: var(--colorWhite);
+  color: var(--color4);
 }
 
 a:hover {
-  color: var(--color4);
+  color: var(--colorWhite);
 }
 
 
