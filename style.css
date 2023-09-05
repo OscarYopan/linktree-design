@@ -53,6 +53,10 @@ body {
   position: relative;
 }
 
+.perfil-image:hover {
+  background-size: calc(125%);
+}
+
 h1 {
   font-size: 24px;
   color: var(--color5);
