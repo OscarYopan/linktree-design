@@ -6,6 +6,7 @@
 
 html {
 /* colours */
+  --colorWhiteTransparense: #ffffff86;
   --colorWhite: #ffffff;
 
 /* Color Theme Swatches in Hex */
@@ -17,7 +18,7 @@ html {
 }
 
 body {
-  background: url('https://plus.unsplash.com/premium_photo-1683120889995-b6a309252981?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+  background: url('https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
   background-color: var(--color2);
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,6 +62,7 @@ h1 {
   font-size: 24px;
   color: var(--color5);
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 p {
@@ -99,7 +101,7 @@ ul {
 }
 
 li {
-  background-color: var(--colorWhite);
+  background-color: var(--colorWhiteTransparense);
   width: 100%;
   list-style-type: none;
   border: 2px solid var(--color4);
